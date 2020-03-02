@@ -32,7 +32,7 @@ class ViewController: UIViewController, UIScrollViewDelegate {
         scrollView.delegate = self
 
         //タブのタイトル
-        let titles = ["月","火","水","木","金","土","日"] //タブのタイトル
+        let titles = ["月","火","水","木","金","正","日"] //タブのタイトル
 
         //タブの縦幅(UIScrollViewと一緒にします)
         let tabLabelHeight:CGFloat = scrollView.frame.height
@@ -102,6 +102,6 @@ class ViewController: UIViewController, UIScrollViewDelegate {
             scrollView.contentOffset = CGPoint(x:x, y:0)
         })
     }
-}   
+}
 
 
